@@ -1,0 +1,501 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("download.jpeg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.div1{
+    color: white;
+    padding-left: 20px;
+}
+ul li{
+    list-style: none;
+    float: left;
+    padding: 4vh;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -11vh;
+    
+}
+.image{
+    flex: 1;
+    padding: 20px
+}
+
+.intro,.intro1{
+    color: white;
+    flex: 1;
+    padding: 20px;
+  
+    padding-left: 35rem;
+    margin-top: -34rem;
+}
+.intro1{
+    color: white;
+    flex: 1;
+    padding: 20px;
+   
+    padding-left: 35rem;
+    margin-top: -8rem;
+}
+
+.image{
+    color: white;
+}
+hr{
+    border: 2;
+    background-color: #7752FE;
+    margin: 84px;
+}
+#p{
+    font-size: 50px;
+}
+
+#span-text{
+    color:red;
+}
+
+#span{
+    color: #7752FE;
+}
+
+li a:hover{
+    color: rgb(104, 104, 225);
+}
+
+#element{
+    color: #BEADFA;
+}
+
+#img1{
+    padding-left: 65rem;
+    padding-top: 12rem;
+}
+
+#p1{
+    font-size: 30px;
+    color: white;
+    color: white;
+    margin-top: -23rem;
+    padding-left: 120px;
+}
+
+.btn-12,
+.btn-12 *,
+.btn-12 :after,
+.btn-12 :before,
+.btn-12:after,
+.btn-12:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-12 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.btn-12:disabled {
+  cursor: default;
+}
+
+.btn-12:-moz-focusring {
+  outline: auto;
+}
+
+.btn-12 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-12 [hidden] {
+  display: none;
+}
+
+.btn-12 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+
+.btn-12 span {
+  mix-blend-mode: difference;
+}
+
+.btn-12:after,
+.btn-12:before {
+  background: linear-gradient(
+    90deg,
+    #fff 25%,
+    transparent 0,
+    transparent 50%,
+    #fff 0,
+    #fff 75%,
+    transparent 0
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: translateY(var(--progress, 100%));
+  transition: transform 0.2s ease;
+}
+
+.btn-12:after {
+  --progress: -100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0,
+    transparent 25%,
+    #fff 0,
+    #fff 50%,
+    transparent 0,
+    transparent 75%,
+    #fff 0
+  );
+  z-index: -1;
+}
+
+.btn-12:hover:after,
+.btn-12:hover:before {
+  --progress: 0;
+}
+
+#h1{
+  color: white;
+  font-size: 44px;
+}
+
+#t1{
+  background-color: #27AE60;
+  position: absolute;
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+  right: 70%;
+}
+
+i{
+  padding-left: 5px;
+  padding-top: 4px;
+  font-size: 20px;
+  color: white;
+}
+
+.tl-duration{
+  padding: 0.2rem 0.6rem;
+    background-color: red;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+#t2{
+  position: absolute;
+  right: 62%;
+  margin-top: -20px;
+}
+
+
+#h2{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+  padding-top: 80px;
+}
+
+#h1{
+  color: white;
+  text-align: center;
+}
+
+#line-2{
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 2rem;
+  
+}
+#line-3{
+  color: #8CA1A6;
+  text-align: center;
+}
+
+#line-4{
+  color: #8CA1A6;
+  text-align: center;
+}
+
+#line-5{
+  color: #8CA1A6;
+  text-align: center;
+}
+
+.lines{
+  position: absolute;
+  left: 35%;
+}
+.about-img{
+  position: absolute;
+  right: 0%;
+  bottom: -110%;
+  
+}
+
+#span-line{
+  color: #FFAC00;
+}
+
+#contact{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+#name,#mail{
+  margin-top: 20px;
+}
+
+#labels{
+  color: white;
+  padding-top: 20px;
+}
+#msg{
+  height: 100px;
+  border-radius: 5px;
+  width: 200px;
+}
+#name,#mail{
+  width: 200px;
+  height: 1.5rem;
+}
+
+.form{
+  position: absolute;
+  left: 43%;
+  padding-top: 40px;
+}
+
+
+.submitBtn {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(to left,rgb(230, 35, 0),rgb(255, 174, 0));
+  letter-spacing: 0.7px;
+}
+
+.submitBtn:hover .arrow {
+  animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.submitBtn:active {
+  transform: scale(0.97);
+}
+#hr{
+  margin-top: 20rem;
+}
+#skill{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+/* skills */
+
+.about-stats {
+  padding-bottom: 4rem;
+}
+.about-stats .progress-bars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.about-stats .progress-bars .progress-bar {
+  display: flex;
+  flex-direction: column;
+}
+.about-stats .progress-bars .progress-bar .prog-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+
+}
+.about-stats .progress-bars .progress-bar .progress-con {
+  display: flex;
+  align-items: center;
+}
+.about-stats .progress-bars .progress-bar .progress-con .prog-text {
+  color:#b2becd;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress {
+  width: 100%;
+  height: 0.45rem;
+  background-color: #454e56;
+  margin-left: 1rem;
+  position: relative;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #27AE60;;
+  transition: all 0.4s ease-in-out;
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .html {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+  width: 95%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .node {
+  width: 87%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 70%;
+}
+.about-stats{
+  width: 60%;
+  padding-left: 20%;
+
+}
+.project-tile{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+#netflix-line{
+  color: black;
+}
+#heading{
+  color: black;
+  
+}
+
+button {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+ }
+ 
+ button:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+ }
+ 
+ button:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+ }
+ 
+ button:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+ }
+ 
+ button:focus {
+  outline: 1px transparent;
+ }
+ 
+ button:before {
+  display: none;
+ }
+ 
+ button:-webkit-details-marker {
+  display: none;
+ }
+
+.project-1{
+  background-color: purple;
+  width: max-content;
+  margin: 10px;
+}
+
+.all-projects{
+  display: flex;
+  padding: 20px;
+}
