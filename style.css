@@ -11,6 +11,17 @@ ul a{
     text-decoration: none;
     color: white;
 }
+.ab{
+  margin-left: 100px;
+  margin-top: 150px;
+  color: white;
+}
+#myself{
+  height: 400px;
+  width: 350px;
+  margin-left: 60%;
+  border-radius: 30px;
+}
 
 .div1{
     color: white;
@@ -28,6 +39,7 @@ ul li{
     align-items: center;
     justify-content: center;
     margin-top: -11vh;
+    
     
 }
 .image{
@@ -105,7 +117,7 @@ li a:hover{
 
 .btn-12 {
   -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
+  /* -webkit-appearance: button; */
   background-color: #000;
   background-image: none;
   color: #fff;
@@ -117,7 +129,7 @@ li a:hover{
   font-weight: 900;
   line-height: 1.5;
   margin: 0;
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  /* -webkit-mask-image: -webkit-radial-gradient(#000, #fff); */
   padding: 0;
   text-transform: uppercase;
 }
@@ -132,7 +144,7 @@ li a:hover{
 
 .btn-12 svg {
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .btn-12 [hidden] {
@@ -424,12 +436,10 @@ i{
   text-align: center;
   font-size: 3rem;
 }
-#netflix-line{
-  color: black;
-}
+
 #heading{
   color: black;
-  
+
 }
 
 button {
@@ -492,10 +502,15 @@ button {
 .project-1{
   background-color: purple;
   width: max-content;
+  border-radius: 20px;
   margin: 10px;
 }
 
 .all-projects{
   display: flex;
   padding: 20px;
+}
+
+html{
+  scroll-behavior: smooth;
 }
